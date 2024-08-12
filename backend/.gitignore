@@ -1,0 +1,9 @@
+#Node modules
+node_modules
+package-lock.json
+
+#Environment variables
+.env
+
+#database connection file
+db/connection
