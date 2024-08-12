@@ -1,7 +1,7 @@
 
 class SampleController{
     getSample =  (req, res) => {
-        res.send('get all samples here');
+        res.send('get all samples here!');
     }
 }
 
