@@ -104,7 +104,6 @@ const runMigrations = async () => {
         for(let query of createTables){
             await executeQuery(query);
         }
-
         console.log('All tables create successfully');
     }catch(error){
         console.log('error:', error);
