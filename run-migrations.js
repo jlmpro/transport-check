@@ -14,7 +14,10 @@ exec(`node ${migrationScriptPath}`, (err, stdout, stderr) => {
         Output: stdout,
         Errors: stderr
     }*/
+    if (stdout) {
+        console.log(`Output: ${stdout}`);
+    } else {
+        console.error(`Errors: ${stderr}`);
+    }
 
-    console.log(`Output: ${stdout}`);
-    console.error(`Errors: ${stderr}`);
 });
