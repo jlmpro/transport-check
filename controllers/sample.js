@@ -5,4 +5,4 @@ class SampleController{
     }
 }
 
-module.exports = new SampleController();
+module.exports = new SampleController(); 

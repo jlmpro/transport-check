@@ -109,7 +109,6 @@ const runMigrations = async () => {
 			console.log(query)
 			await executeQuery(query);
 		}
-
 		console.log('All tables create successfully');*/
 		await migrationFunction();
 	} catch (error) {
